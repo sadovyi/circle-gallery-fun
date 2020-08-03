@@ -1,0 +1,28 @@
+.main {
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1600px;
+    min-height: calc(100vh - 64px);
+    overflow: hidden;
+}
+
+.preloader-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-wrapper {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: calc(100vh - 64px);
+    transform: translateX(100%);
+    transition: transform ease .3s;
+    will-change: transform;
+}
